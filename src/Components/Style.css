@@ -1,0 +1,103 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+/* Style the main container */
+.main {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Style Dictionary App heading */
+h1 {
+    font-size: 36px;
+    color: #007bff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the first container */
+.other-1 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+}
+
+#inp {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+    margin-right: 10px;
+}
+
+#btn {
+    padding: 8px 20px;
+    border: none;
+    border-left: 4px solid #007bff;
+    border-right: 4px solid #007bff;
+    margin: 24px 0px;
+    font-size: 20px;
+    color: #000000;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#btn:hover {
+    padding: 8px 36px;
+    border-left: 8px solid #007bff;
+    border-right: 8px solid #007bff;
+    letter-spacing: 3px;
+    transition: all 400ms7 ease;
+}
+
+/* Style the second container */
+.other-2 {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Style headings and text */
+h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Style for the scrollbar track (the background of the scrollbar) */
+::-webkit-scrollbar {
+    width: 10px;
+    /* Adjust the width as needed */
+}
+
+/* Style for the scrollbar thumb (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #007bff;
+    border-radius: 5px;
+}
